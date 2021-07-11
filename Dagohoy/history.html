@@ -1,0 +1,98 @@
+<html>
+<head>
+		<title>Municipality Of Dagohoy</title>
+		<link rel="stylesheet" href="css/style.css">
+		<!--<link rel="stylesheet" href="https://stackpatch.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<meta name="viewport" content="width =device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+		
+	</head>
+<body>
+	<section id="sub-banner">
+		<img src="images/LOGO.png" class="logo">
+<div class="banner-text">
+			<h1>Dagohoy History</h1>
+</div>
+	</section>
+	
+<div id="sideNav">
+		<nav>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="officials.html">OFFICIALS</a></li>
+			<li><a href="brgy.html">BARANGAY</a></li>
+			<li><a href="project.html">PROJECTS</a></li>
+			<li><a href="service.html">SERVICES</a></li>
+			<li><a href="connect.html">CONNECT WITH US</a></li>
+			<li><a href="#footer"></a></li>
+		</ul>
+		</nav>
+</div>
+<div id="menuBtn">
+		<img src="images/menu.png" id="menu">
+</div>
+
+<section id="history">
+		
+			<div class="history-col">
+			<p>The Municipality of Dagohoy was once an agricultural colony; officially created by the name of Colonia Agricula de Bohol or Bohol Agricultural Colony in 1920 by then Senator Jose A. Clarin, the first senator of the 11th Senatorial District which comprised the provinces of Bohol, Misamis, and Surigao. Appointed as Superintendent and Cashier of the Colony was Mr. Camilo Calceta.<br><br>
+			Known to the local folks as Colonia, this colony was part of the territory of the town of Carmen yet has a separate administration and appropriation. In 1927, in order to attract settlers to the colony and for it to become a showcase of American town management, settlers were offered homesteads of twelve (12) to twenty-four (24) hectares in area with a house, complete set of farm implements including a carabao.<br><br>
+			Many were discouraged to settle in the area at first because it was thickly forested and full of the much dreaded malaria-causing mosquitoes. To eradicate the mosquitoes, the Americans dispatched health personnel to the area.<br><br>
+			Time came when Colonia overflowed with people who were largely attracted to the offer of free land, houses and farm implements. By 1930, it was a flourishing town with agricultural products overflowing.<br><br>
+			Yet, come with the worldwide economic depression in the 1930s which resulted in the colonys farm products not having any market and salaries of government employees cut in half, many of settlers left and migrated to Mindanao. Only a few hardy souls remained.<br><br>
+			World War II inflicted much damage when the Japanese searched for American officials, missionaries, and supporters in the area. People fled. The once bustling community almost became a ghost town.<br><br>
+			At the end of World War II, Philippine Independence was granted by the Americans. The colony, as a model-town experiment by the Americans, now does not have their support. The remaining inhabitants solely relied on their farm produce for a living.<br><br>
+			In 1951, President Elpidio Quirino turned Colonia into a municipal district and called it Victoria in honor of one of his daughters who was killed by the Japanese during the liberation of Manila.<br><br>
+			In 1953, when Ramon Magsaysay was elected President and Carlos P. Garcia of Bohol was elected Vice-President, the residents of Victoria lobbied to become an independent municipality. Carlos P. Garcia proposed the name of Dagohoy in honor of Bohol’s greatest hero, Francisco Dagohoy, who led the longest revolt against Spain.<br><br>
+			Finally, Executive Order No. 184 was issued creating the Municipality of Dagohoy on June 21, 1956. Appointed Mayor was Mr. Camilo Calceta, Vice-Mayor  Florentino Ampoloquio; Municipal Councilors  Vicente Lagapa, Regino Iyoy, Esteban Clarin, Eustaquio Querol, Lorenzo Hormachuelos, and Hipolito Amihan.<br><br>
+			The barrios Can-oling, Estaca, Villa Aurora, La Esperanza, San Vicente, Sta. Cruz, and Poblacion were taken from Carmen, Bohol. The barrio of Babag was taken from Ubay, Bohol; Mahayag, Kagawitan and Malitbog from Trinidad and Candelaria, Caluasan, and San Miguel from Sierra Bullones.<br><br>
+			</div>
+</section>
+
+
+<!--footer-->
+<section id="footer">
+	<div class="title-text">
+	<p>Get in Touch</p>
+	</div>
+<div class="footer-row">
+	<div class="footer-left">
+	<p> This website is for project purposes only!</p>
+	<p>Thank You for Visiting!!</p>
+	</div>
+	<div class="footer-right">
+	<p>6322 Dagohoy, Bohol 2nd District of Bohol <i><a href="#" class="fa fa-map-marker"></a></i><p>
+	<p>municipalityofdagohoy@yahoo.com <i><a href="#" class="fa fa-envelop"></a></i></p>
+	<span class="small floatright">Dagohoy FB Page:<a target="_blank" href="https://www.facebook.com/www.municipalityofdagohoy.com.ph">@municipalityofdagohoy</a> </span>
+	</div>
+</section>
+
+
+<script>
+
+	var menuBtn = document.getElementById("menuBtn")
+	var sideNav = document.getElementById("sideNav")
+	var menu = document.getElementById("menu")
+
+sideNav.style.right = "-250px";
+	
+menuBtn.onclick = function(){
+	if(sideNav.style.right == "-250px"){
+		sideNav.style.right = "0";
+		menu.src = "images/close.png";
+		}
+		else{
+		sideNav.style.right = "-250";
+		menu.src = "images/menu.png";
+		}
+	}
+
+	var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+</script>
+</body>
+</html>
